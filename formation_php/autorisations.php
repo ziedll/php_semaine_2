@@ -3,6 +3,15 @@ $age = 19;
 $role = "client";
 $motDePasseSaisi = "secret123";
 
+
+$motDePasseSaisiUser1 = "user123";
+$motDePasseSaisiUser2 = "COUCOU";
+
+function verifMDP()
+{
+    echo "Loading en attente de verif";
+}
+
 if($motDePasseSaisi == "secret123"){
     echo "mot de passe correct" . "<br>";
 }else{
@@ -25,3 +34,5 @@ if ($motDePasseSaisi == "secret123" && $age>=18){
 }else{
     "accès refusé" . "<br>";
 }
+verifMDP($role);
+verifMDP("Salut");
