@@ -4,7 +4,7 @@ function afficherMessageBienvenue(){
 }
 afficherMessageBienvenue();
 function accueillirMembreTyrolium($prenom, $role){
-    echo "Bonjour " . $prenom . " votre accès en tant que  " . $role . " est bien cofigurée chez Tyrolium" . "<br>";
+    echo "Bonjour " . $prenom . " votre accès en tant que  " . $role . " est bien cofiguré chez Tyrolium" . "<br>";
 }
 accueillirMembreTyrolium("Alice","Développeuse");
 accueillirMembreTyrolium("Marc","Designer" );
