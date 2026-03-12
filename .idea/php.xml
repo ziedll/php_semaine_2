@@ -15,6 +15,17 @@
       <phpcs_by_interpreter asDefaultInterpreter="true" interpreter_id="b9b46bdb-7b6c-4e16-a756-94ce9fea84b3" timeout="30000" />
     </phpcs_settings>
   </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/db/vendor/composer" />
+      <path value="$PROJECT_DIR$/db/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/db/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/db/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/db/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/db/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/db/vendor/symfony/polyfill-php80" />
+    </include_path>
+  </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.5" />
   <component name="PhpStan">
     <PhpStan_settings>
